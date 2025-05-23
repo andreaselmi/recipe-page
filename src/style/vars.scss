@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Outfit';
+	src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'YoungSerif';
+	src: url('/assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+// Colors
+$rose-800: #7A284E;
+$rose-50: #FFF7FB;
+
+$stone-900: #312E2C;
+$stone-600: #5F564D;
+$stone-150: #E3DDD7;
+$stone-100: #F3E5D7;
+
+$brown-800: #854632;
+
+$white: #FFFFFF;
+
+// Typography
+$font-serif: 'YoungSerif', serif;
+$font-sans-serif: 'Outfit', sans-serif;
+
+// Spacing
+$spacing-1600: 8rem; // 128px
+$spacing-600: 3rem; // 48px
+$spacing-500: 2.5rem; // 40px
+$spacing-400: 2rem; // 32px
+$spacing-300: 1.5rem; // 24px
+$spacing-200: 1rem; // 16px
+$spacing-150: 0.75rem; // 12px
+$spacing-100: 0.5rem; // 8px
+
+// Breakpoints
+$layout-breakpoint-mobile: 375px;
+$layout-breakpoint-tablet: 768px;
+$layout-breakpoint-desktop: 1440px;

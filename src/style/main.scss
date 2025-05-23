@@ -1,0 +1,50 @@
+@use 'reset';
+@use 'vars' as *;
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	color: $stone-900;
+	background-color: $stone-100;
+}
+
+.typography-1 {
+	font-family: $font-serif;
+	font-size: 2.5rem;
+	line-height: 1;
+	letter-spacing: 0em;
+}
+
+.typography-2 {
+	font-family: $font-serif;
+	font-size: 1.75rem;
+	line-height: 1;
+	letter-spacing: 0em;
+}
+
+.typography-3 {
+	font-family: $font-sans-serif;
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1;
+	letter-spacing: 0em;
+}
+
+.typography-4 {
+	font-family: $font-sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.50;
+	letter-spacing: 0em;
+}
+
+.typography-4-bold {
+	font-family: $font-sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.50;
+	letter-spacing: 0em;
+}
