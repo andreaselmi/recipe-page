@@ -62,10 +62,6 @@ body #app {
 		&:not(:first-child) {
 			margin-top: $spacing-100;
 		}
-
-		&::marker {
-			color: $rose-800;
-		}
 	}
 }
 

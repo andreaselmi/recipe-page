@@ -33,6 +33,20 @@
 		margin-bottom: $spacing-400;
 		padding: $spacing-300;
 		border-radius: $spacing-150;
+
+		&-title {
+			color: $rose-800;
+		}
+
+		&-list {
+			color: $stone-600;
+
+			li {
+				&::marker {
+					color: $rose-800;
+				}
+			}
+		}
 	}
 
 	&__ingredients {
@@ -40,6 +54,15 @@
 
 		&-title {
 			color: $brown-800;
+		}
+
+		&-list li {
+			@extend .typography-4;
+			color: $stone-600;
+
+			&::marker {
+				color: $brown-800;
+			}
 		}
 	}
 
