@@ -6,9 +6,12 @@ body {
 	height: 100%;
 }
 
-body {
+body #app {
 	color: $stone-900;
 	background-color: $stone-100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .typography-1 {
@@ -47,4 +50,27 @@ body {
 	font-size: 1rem;
 	line-height: 1.50;
 	letter-spacing: 0em;
+}
+
+.list {
+	padding: 0;
+	margin: $spacing-200 0 0 $spacing-300;
+
+	li {
+		padding-left: $spacing-200;
+
+		&:not(:first-child) {
+			margin-top: $spacing-100;
+		}
+
+		&::marker {
+			color: $rose-800;
+		}
+	}
+}
+
+@media (min-width: $layout-breakpoint-tablet) {
+	body #app {
+		padding: $spacing-1600;
+	}
 }
